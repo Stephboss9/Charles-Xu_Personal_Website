@@ -1,0 +1,147 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+body {
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 2rem;
+color:#333 ;
+}
+
+/*
+nav_bar styling
+*/
+
+#nav_bar {
+    margin-right: 15px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.nav__item {
+    margin-left: 70px;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #235f7d;
+}
+
+/*
+intro section styling
+*/
+#header-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 3em;
+}
+
+.intro-description {
+    width: 50%;
+}
+
+
+
+.download_resume_btn {
+    padding: 15px;
+    background:#D82148 ;
+    color: #FAEDF0;
+    border: none;
+}
+
+.Title__sub, .intro-description {
+    margin-bottom: 15px;
+}
+
+
+.Title, .Title__sub, .About_Me_Header, .Portfolio_Header {
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+}
+
+.Picture {
+    border-radius: 50%;
+    border-color: beige;
+    height: 50%;
+}
+
+/*
+Main section styling
+*/
+
+#main-section {
+    background: #D82148;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+.main-section-content {
+    padding: 100px;
+    width: 70%;
+
+}
+.About_Me_Header {
+    margin-bottom: 20px;
+}
+
+.About_Me_Header, .About_Me_Text {
+    color: #FAEDF0;
+}
+
+
+
+
+/*
+portfolio section styling
+*/
+#portfolio-section {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section-content {
+    width: 70%;
+
+}
+
+.portfolio__item {
+    text-align: center;
+}
+
+.portfolio_items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.portfolio_img {
+    border-color: #F5F5F5;
+    background: #f6eeee;
+    border-radius: 20px;
+    padding: 40px;
+    width: 50%;
+}
+
+.project-description, .Portfolio_Header {
+    color: #548CA8;
+}
+
+.Portfolio_Header {
+    margin-bottom: 50px;
+}
+
+.app_link {
+    text-decoration: none;
+}
